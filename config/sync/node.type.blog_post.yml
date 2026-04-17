@@ -1,0 +1,13 @@
+uuid: 6a2f8e9c-4d3b-5c6e-7f8a-9b0c1d2e3f4a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XkPQqJ-6a2b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2
+name: 'Blog Post'
+type: blog_post
+description: 'Use <em>Blog Posts</em> for blog articles with rich content, images, categories and tags.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

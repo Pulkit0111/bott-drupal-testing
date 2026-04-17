@@ -1,0 +1,22 @@
+uuid: 0e6a2g3c-8b7f-9a0c-1b2d-3e4f5a6b7c8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: Bb8qRS_-9f5g1h2i3j4k5l6m7n8o9p0q1r2s3t4u
+id: node.field_blog_category
+field_name: field_blog_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
