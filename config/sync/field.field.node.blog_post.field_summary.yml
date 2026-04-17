@@ -1,0 +1,24 @@
+uuid: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.blog_post
+  module:
+    - text
+_core:
+  default_config_hash: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+id: node.blog_post.field_summary
+field_name: field_summary
+entity_type: node
+bundle: blog_post
+label: Summary
+description: 'A brief summary of the blog post for listing pages.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max_length: 500
+field_type: string

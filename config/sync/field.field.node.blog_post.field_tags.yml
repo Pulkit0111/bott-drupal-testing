@@ -1,0 +1,29 @@
+uuid: 0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.blog_post
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+id: node.blog_post.field_tags
+field_name: field_tags
+entity_type: node
+bundle: blog_post
+label: Tags
+description: 'Enter a comma-separated list of tags. For example: Drupal, Web Development, PHP'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

@@ -1,0 +1,13 @@
+uuid: 1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+name: 'Blog Post'
+type: blog_post
+description: 'Use <em>blog posts</em> for regular blog content with categories and featured images.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
