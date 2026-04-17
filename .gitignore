@@ -1,0 +1,31 @@
+# Composer dependencies
+/vendor/
+
+# Drupal core and contributed projects (managed by Composer)
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Sensitive configuration and credentials
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+
+# User-generated content and cache
+web/sites/*/files/
+web/sites/*/private/
+web/sites/simpletest/
+
+# DDEV local overrides (auto-generated)
+.ddev/config.*.yaml
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# OS and IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
