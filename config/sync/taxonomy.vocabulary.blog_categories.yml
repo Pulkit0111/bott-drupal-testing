@@ -1,0 +1,11 @@
+uuid: 4d7c99e2-5b3a-4f8c-9d1e-2a6b8c4d5e7f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XYZ123abc456def789ghi012jkl345mno
+name: 'Blog Categories'
+vid: blog_categories
+description: 'Taxonomy vocabulary for categorizing blog posts'
+weight: 0
+new_revision: false

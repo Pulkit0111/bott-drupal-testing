@@ -1,0 +1,16 @@
+uuid: 1h5ef7g7-9i8d-7e0f-2g1h-4d5e6f7g8h9i
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blog_categories
+third_party_settings: {  }
+name: General
+vid: blog_categories
+description: 'General posts and miscellaneous content'
+weight: 3
+parent: ''
+path:
+  alias: ''
+  pid: null
+  langcode: en

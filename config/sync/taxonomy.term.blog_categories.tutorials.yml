@@ -1,0 +1,16 @@
+uuid: 9f3cd5e5-7g6b-5c8d-0e9f-2b3c4d5e6f7g
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blog_categories
+third_party_settings: {  }
+name: Tutorials
+vid: blog_categories
+description: 'Step-by-step tutorials and how-to guides'
+weight: 1
+parent: ''
+path:
+  alias: ''
+  pid: null
+  langcode: en
