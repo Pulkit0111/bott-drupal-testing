@@ -1,0 +1,11 @@
+uuid: 7b3f9e0d-5e4c-6d7f-8a9b-0c1d2e3f4a5b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YkRQr9O-7b4f8g0h6i9j1k2l3m4n5o6p7q8r9s0
+name: 'Blog Categories'
+vid: blog_categories
+description: 'Categories for organizing blog posts.'
+weight: 0
+new_revision: false

@@ -1,0 +1,28 @@
+uuid: 2g8c4i5e-0d9b-1c2d-3e4f-5a6b7c8d9e0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.blog_post
+  module:
+    - text
+_core:
+  default_config_hash: Dd0qTU_-1h7i3j4k5l6m7n8o9p0q1r2s3t4u5v6w
+id: node.blog_post.body
+field_name: body
+entity_type: node
+bundle: blog_post
+label: Body
+description: 'Write your blog post content here.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_with_summary

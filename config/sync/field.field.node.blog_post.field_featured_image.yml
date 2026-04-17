@@ -1,0 +1,40 @@
+uuid: 4i0e6k7g-2f1d-3e4f-5a6b-7c8d9e0f1a2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image
+    - node.type.blog_post
+  module:
+    - image
+_core:
+  default_config_hash: Ff2qSV_-3k9l5m6n7o8p9q0r1s2t3u4v5w6x7y
+id: node.blog_post.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: blog_post
+label: 'Featured Image'
+description: 'Upload an image to display as the featured image for this blog post.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'blog/featured/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
