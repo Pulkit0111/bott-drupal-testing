@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.user.author
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
@@ -14,7 +15,6 @@ dependencies:
     - comment
     - image
     - text
-    - user
 _core:
   default_config_hash: br6izr-iGEu--JvNbCJNtOBpRnxpFLXfoV5y61U9Nqc
 id: node.article.default
@@ -61,5 +61,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 100
+    region: content
+  uid:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: author
+      link: false
+    third_party_settings: {  }
+    weight: 120
     region: content
 hidden: {  }

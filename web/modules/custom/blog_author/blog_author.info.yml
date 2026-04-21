@@ -1,0 +1,5 @@
+name: 'Blog Author'
+type: module
+description: 'Makes the node author (uid) base field display-configurable so the Author view mode can render at the bottom of article pages.'
+package: 'Custom'
+core_version_requirement: ^10 || ^11
