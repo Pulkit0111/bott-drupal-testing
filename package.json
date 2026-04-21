@@ -1,0 +1,13 @@
+{
+  "name": "bott-drupal-testing-tests",
+  "private": true,
+  "description": "Playwright end-to-end tests for bott-drupal-testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0"
+  }
+}

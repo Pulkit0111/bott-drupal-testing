@@ -20,8 +20,14 @@ web/sites/simpletest/
 # DDEV local overrides (auto-generated)
 .ddev/config.*.yaml
 
-# Local Claude Code settings
-.claude/settings.local.json
+# Local Claude Code state (settings, context cache, skill iteration logs)
+.claude/
+
+# Node / Playwright
+node_modules/
+tests/playwright/test-results/
+tests/playwright/playwright-report/
+tests/playwright/.cache/
 
 # OS and IDE artifacts
 .DS_Store
