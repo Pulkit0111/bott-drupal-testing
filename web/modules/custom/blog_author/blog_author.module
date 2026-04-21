@@ -9,10 +9,22 @@ use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 
 /**
+ * Implements hook_entity_type_alter().
+ */
+function blog_author_entity_type_alter(array &$entity_types): void {
+  if (isset($entity_types['node'])) {
+    $entity_types['node']->set('enable_base_field_custom_preprocess_skipping', TRUE);
+  }
+}
+
+/**
  * Implements hook_entity_base_field_info_alter().
  */
 function blog_author_entity_base_field_info_alter(array &$fields, EntityTypeInterface $entity_type): void {
   if ($entity_type->id() === 'node' && isset($fields['uid']) && $fields['uid'] instanceof BaseFieldDefinition) {
     $fields['uid']->setDisplayConfigurable('view', TRUE);
+  }
+  if ($entity_type->id() === 'user' && isset($fields['name']) && $fields['name'] instanceof BaseFieldDefinition) {
+    $fields['name']->setDisplayConfigurable('view', TRUE);
   }
 }
