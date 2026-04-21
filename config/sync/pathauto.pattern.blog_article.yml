@@ -1,0 +1,21 @@
+uuid: ceb76199-8599-4007-a4d5-d14fb391ffc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: blog_article
+label: 'Blog articles'
+type: 'canonical_entities:node'
+pattern: 'blog/[node:created:custom:Y]/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,14 @@
+uuid: 0f811c0e-56c0-466b-a491-02f37d46141c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'
+  description: '[site:slogan]'
+  og_site_name: '[site:name]'
+  og_type: website
