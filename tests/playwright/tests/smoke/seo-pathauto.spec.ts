@@ -24,7 +24,7 @@ test.describe('SEO — Pathauto URL aliases', () => {
 
     const year = new Date().getFullYear();
     expect(alias).toMatch(
-      new RegExp(`^/blog/${year}/tdp70-seo-pathauto-article$`),
+      new RegExp(`^/blog/${year}/\\d{2}/tdp70-seo-pathauto-article$`),
     );
 
     const res = await request.get(alias);
