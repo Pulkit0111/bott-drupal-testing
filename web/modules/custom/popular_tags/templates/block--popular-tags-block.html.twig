@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Default theme implementation for the Popular Tags block.
+ *
+ * Available variables:
+ * - tags: list of tags, each with 'name', 'url', 'count'.
+ */
+#}
+{% if tags is not empty %}
+  <ul class="popular-tags">
+    {% for tag in tags %}
+      <li class="popular-tags__item">
+        <a class="popular-tags__link" href="{{ tag.url }}">{{ tag.name }} ({{ tag.count }})</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

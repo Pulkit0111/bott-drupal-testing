@@ -1,0 +1,9 @@
+name: 'Popular Tags'
+type: module
+description: 'Provides a block listing the most-used tags by published article count.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:taxonomy
+  - drupal:node
+  - drupal:block
