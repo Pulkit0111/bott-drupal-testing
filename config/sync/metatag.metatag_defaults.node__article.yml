@@ -1,0 +1,17 @@
+uuid: 6f5aff13-551b-4d74-9102-143e57441b31
+langcode: en
+status: true
+dependencies: {  }
+id: node__article
+label: 'Content: Article'
+tags:
+  title: '[node:title] | [site:name]'
+  description: '[node:summary]'
+  og_title: '[node:title]'
+  og_description: '[node:summary]'
+  og_image: '[node:field_image:entity:url]'
+  og_type: article
+  twitter_cards_type: summary_large_image
+  twitter_cards_title: '[node:title]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_image: '[node:field_image:entity:url]'
