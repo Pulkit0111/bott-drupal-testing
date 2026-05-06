@@ -1,0 +1,4 @@
+services:
+  popular_tags.repository:
+    class: Drupal\popular_tags\PopularTagsRepository
+    arguments: ['@database']
